@@ -1,0 +1,698 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+/* div{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+} */
+
+/* .b{
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: ;
+} */
+.page1{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    /* background-color: aqua; */
+}
+header{
+    width: 100%;
+    height: 7vh;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.head{
+    width: 40%;
+    height: 7vh;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+  ;
+    justify-content: space-evenly;
+    
+}
+.heads{
+    width: 40%;
+    height: 7vh;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.header2{
+    width: 100%;
+    height: 10vh;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.den{
+    width: 25%;
+    height: 12vh;
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.dens{
+    width: 45%;
+    height: 10vh;
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+li{
+    list-style: none;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.denn{
+    width: 25%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid; */
+   
+}
+
+.logo{
+    width: 83%;
+    height: 10vh;
+    /* border: 1px solid greenyellow; */
+    background-image: url(./logo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.but{
+    width: 80%;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    border: 1px solid;
+    justify-content:space-evenly;
+    background-color: blue;
+    color: white;
+    border: 1px solid;
+    
+}
+.blue a{
+color: blue;
+;
+}
+.bar{
+    display: none;
+}
+hr{
+    color: green;
+    border:73px  solid;
+}
+.main{
+    height: 83vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border: 1px solid;
+    justify-content:space-evenly;
+    border: 1px solid;
+
+}
+.main1{
+    height: 83vh;
+    width: 56%;
+    border: 1px solid;
+    display: flex;
+    align-items: flex-start;
+    border: 1px solid;
+ 
+    justify-content:space-evenly;
+}
+.main2{
+    height: 83vh;
+    width: 56%;
+    border: 1px solid;
+    /* background-image: url(doctor.png); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+  
+
+}
+.con{
+    height: 63vh;
+    width: 80%;
+    border: 1px solid;
+    display: flex;
+  align-items: center
+    ;
+    border: 1px solid;
+ 
+    justify-content:space-evenly;
+}
+.conn{
+    height: 53vh;
+    width: 70%;
+    border: 1px solid;
+    display: flex;
+    /* line-height: 65px; */
+    border: 1px solid;
+    justify-content:flex-start;
+    flex-direction: column;
+    color: blue;
+ 
+    
+}
+.hey{
+    border: 1px solid grey;
+    padding: 10px;
+    width:40%;
+}
+.page1 h1{
+    font-size: 3rem;
+    color: black;
+}
+p{
+    color: grey;
+    line-height: 25px;
+}
+.ain{
+    height: 77vh;
+width: 70%;
+border: 1px solid;
+background-image: url(doctor.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-color: rgb(198, 225, 247)
+}
+.box{
+    width: 13%;
+    height: 17vh;
+    position: absolute;
+    top: 35%;
+    display: flex;
+  
+    left: 59%;
+    justify-content: space-evenly;
+    background-color: snow;
+   
+    border: 1px solid;
+}
+.pic{
+    width: 30px;
+    height: 30px;
+    border: 1px solid;
+    border-radius: 50%;
+}
+.eight{
+ font-size: 2rem;
+
+}
+
+.picc{
+   display: flex;
+   padding-top: 4%;
+}
+.sym{
+    font-size: 1rem;
+    color: snow;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    background-color: blue;
+    display: flex;
+    font-size: 15px;
+    margin-top: 5%;
+    position: absolute;
+    left: 89%;
+    margin-left: 0%;
+ 
+    align-items: center;
+    justify-content: space-evenly;
+}
+.c{
+    background-image: url(man.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.c2{
+    background-image: url(man2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.c3{
+    background-image: url(man3.jpeg);
+    background-repeat: no-repeat;
+ 
+    background-size: cover;
+
+}
+.satis{
+    position: absolute;
+    top: 43%;
+    left: 60%;
+
+}
+.rec{
+    width: 70%;
+    height: 17vh;border: 1px solid;
+    position: absolute;
+    left: 10%;
+    bottom: 5%;background-color: snow;
+}
+.flex1{
+    width: 70%;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.mail{
+    width: 25%;
+    height: 10vh;
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.flex2{
+    width: 90%;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 2%;
+}
+input{
+    height: 7vh;
+    padding-left: 2%;
+}
+.but2{
+    width: 23%;
+    height: 7vh;
+    color: snow;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 10px;
+
+    background-color: blue;
+
+}
+.page2{
+    width: 100%;
+    border: 1px solid;
+    height: 35vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.price{
+    width: 25%;
+    height: 35vh;
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.item{
+    width: 35%;
+    height: 12vh;
+    background-color: rgb(199, 215, 228);
+     /* background-image: url(icon.png); */
+     background-repeat: no-repeat;
+     background-size: cover;
+     display: flex;
+     align-items: center;
+     /* flex-direction: column; */
+     justify-content: space-evenly;
+    /* border: 1px solid; */
+}
+.em{
+    width: 60%;
+    height: 10vh;
+    background-color: rgb(199, 215, 228);
+     background-image: url(icon.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+    /* border: 1px solid; */
+}
+.em2{
+    width: 60%;
+    height: 10vh;
+    background-color: rgb(199, 215, 228);
+     background-image: url(icon2.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+    /* border: 1px solid; */
+}
+.em3{
+    width: 60%;
+    height: 10vh;
+    background-color: rgb(199, 215, 228);
+     background-image: url(icon3.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+    /* border: 1px solid; */
+}
+.page2 h2{ 
+font-size:27px;
+}
+.item3{
+    width: 80%;
+    text-align: center;
+}
+
+/* page3 */
+.page3{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+   
+}
+.third{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    justify-content: space-evenly;
+}
+.th{
+    width: 50%;
+    height: 0vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   
+   
+}
+.img{
+    width: 50%;
+    height: 80vh;
+    background-image: url(doctorrr.png);
+    background-repeat: no-repeat;
+    z-index: 1;
+    background-size: cover;
+}
+.ree{
+    width: 50%;
+    height: 75vh;
+    border: 1px solid;
+}
+.more{
+    border: 1px solid grey;
+    width: 20%;
+    padding: 10px;
+    color: blue;
+}
+.page3 h1{
+    width: 90%;
+    font-size: 3rem;
+}
+.lorem{
+    width: 80%;
+    line-height: 22px;
+    color: grey;
+}
+.tick{
+    width: 55%;
+   display: flex;
+ 
+   /* border: 1px solid; */
+   align-items: center;
+   justify-content: space-between;
+}
+.tick1{
+    display: flex;
+    justify-content: space-around;
+    width: 47%;
+    /* border: 1px solid; */
+}
+.ticky{
+    height: 30vh;
+    border: 1px solid;
+    width: 100%;
+    
+  
+}
+.tick1 i{
+color :snow;
+background-color: blue;
+padding: 2px;
+font-size: 10px;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+border-radius: 50%;
+
+}
+.tick1 i{
+    color :snow;
+    background-color: blue;
+    padding: 2px;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 50%;
+    
+    }
+    .learn{
+        color: snow;
+        background-color: blue;
+        width: 30%;
+        height: 7vh;
+        border-radius: 10px;
+        display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    }
+    .point{
+        color: blue;
+    }
+    .app{
+        display: flex;
+        align-items: center;
+        width: 60%;
+        justify-content: space-evenly;
+    }
+    .round{
+        position: absolute;
+        width: 110px;
+        height: 110px;
+        background-color: snow;
+        top: 29%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        border: 1px solid;
+        border-radius: 50%;
+    }
+    .round{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        top: 29%;
+        background-image: url(doctor4.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: 10px solid snow;
+        border-radius: 50%;
+    }
+    .image{
+        background-image: url(curl.png);
+        background-repeat: no-repeat;
+        /* border: 1px solid; */
+        width: 30%;
+        position: absolute;
+        left: 10%;
+        background-size: cover;
+        height: 80vh;
+    }
+    .ound{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        top: 59%;
+        left: 30%;
+        background-image: url(doctor5.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: 10px solid snow;
+        border-radius: 50%;
+    }
+    .line{
+        background-image: url(line.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 70vh;
+        position: absolute;
+        top: 5%;
+        width: 35%;
+        left: 2%;
+        z-index: -1;
+    }
+    .page4{
+        position: relative;
+        width: 100%;
+        height: 90vh;
+        display: flex;
+        align-items: center;
+        background-color: aliceblue;
+        justify-content: space-around;
+    }
+    .div{
+        width: 40%;
+        height: 80vh;
+        /* border: 1px solid; */
+    }
+    .div2{
+        width: 25%;
+        height: 80vh;
+        background-image: url(doctor6.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* border: 1px solid; */
+    }
+    .div3{
+        width: 20%;
+        height: 40vh;
+        background-color: snow;
+        /* border: 1px solid; */
+        padding: 15px;
+    }
+    .page4 h1{
+        width: 90%;
+        font-size: 3rem;
+    }
+    progress{
+   color: blue;
+   width: 70%;
+   height: 4vh;
+    }
+    .lorems{
+        line-height: 25px;
+        width: 95%;
+        color: grey;
+    }
+    .value{
+        display: flex;
+        /* align-items: center; */
+        justify-content: space-between;
+        width: 70%;
+    }
+    .page4 h3{
+        font-size: 1.5rem;
+        padding-left: 2%;
+    }
+    .lore{
+        width: 100%;
+        margin-top: 1%;
+        padding-left: 2%;
+        color: grey;
+        line-height: 25px;
+    }
+    .monday{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        line-height: 30px;
+        width: 100%;
+        color: black;
+    }
+    .page5{
+        position: relative;
+        width: 100%;
+        height: 120vh;
+        /* display: flex;
+        align-items: center; */
+        background-color: aliceblue;
+        justify-content: space-around;
+    }
+ .page5 h2{
+text-align: center;
+
+padding-top: 3%;
+font-size: 2rem;
+    }
+    .rell{
+        text-align: center;
+        width: 40%;
+        color: grey;
+        margin-top: 2%;
+        line-height: 30px;
+        margin-left: 28%;
+       
+
+    }
+    .boxy{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: space-evenly;
+        /* align-items: center; */
+    
+
+    }
+    .child{
+        width: 80%;
+        border: 1px solid;
+        height: 80vh;
+        display: flex;
+        justify-content: space-evenly;
+     
+        
+    }
+    .im{
+        background-image: url(doctor6.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 30%;
+        height: 35vh;
+
+    }
+    .mm{
+        background-image: url(doctor5.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 30%;
+        height: 35vh;
+
+    }
+    .mm3{
+        background-image: url(doctor7.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 30%;
+        height: 35vh;
+
+    }
+    .m{
+        
+    }
+
+
+
+
+
+
